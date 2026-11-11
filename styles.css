@@ -1,0 +1,89 @@
+body {
+    margin:0;
+    padding:0;
+    background-image:url('https://images.pexels.com/photos/13248795/pexels-photo-13248795.jpeg');
+    background-size: cover;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  
+  width: 100%;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+  align-items: right;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar a {
+  color: black;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.logo{
+    font-size:20px;
+    padding: 10px;
+    margin:5px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius:20px;
+    background-color: black;
+}
+/* .logo {
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 3px;
+} */
+
+.letter {
+  display: inline-block;
+}
+
+.m {
+  color: #e63946;
+}
+
+.i {
+  color: #f4a261;
+}
+
+.k {
+  color: #2a9d8f;
+}
+
+.e {
+  color: #264653;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  height: 100vh;
+  text-align: center;
+}
+
+.welcome-message {
+  font-size: 26px;
+  color: black;
+  margin-top:2px;
+  
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 70px 0;
+}
